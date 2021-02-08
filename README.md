@@ -16,8 +16,13 @@ To test the pretrained model, please run file test_acgan.py . This file load the
 
 # Demo 
 Generated images after training for 100 epochs: 
+
 ![](assets/version_1_epoch_99.0.png)
+
 Generator's categorical loss: 
+
 ![](assets/G_categorical_loss.png)
+
 Generator's binary loss:
+
 ![](assets/G_fake_real_loss.png)
