@@ -14,4 +14,10 @@ To train, please run the file acgan.py . During training process, the images gen
 For demo, i have trained once and then uploaded weight, generated images and plot of history training into this project. Generated images are stored in folder "images/version1", while weights are stored in folder "saved_model_weights/version1" and training history plots are stored in folder "plot_history_training/version1".
 To test the pretrained model, please run file test_acgan.py . This file load the pretrained weight for generator from the file "saved_model_weights/version1/generator_weights_99.0.h5" and then use this generator to generate new images. 
 
-![](assets/detection_anchors.png)
+# Demo 
+Generated images after training for 100 epochs: 
+![](assets/version_1_epoch_99.0.png)
+Generator's categorical loss: 
+![](assets/G_categorical_loss.png)
+Generator's binary loss:
+![](assets/G_fake_real_loss.png)
