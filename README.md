@@ -26,3 +26,7 @@ Generator's categorical loss:
 Generator's binary loss:
 
 ![](assets/G_fake_real_loss.png)
+
+# Reference 
+Code from this project is based on guideline from this link : https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
+
